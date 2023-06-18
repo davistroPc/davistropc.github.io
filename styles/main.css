@@ -1,0 +1,58 @@
+@import "./header.css";
+@import "./buttons.css";
+@import "./cards.css";
+@import "./horarios.css";
+
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --bodyText: 18px/16px var(--fontBase);
+    --descriptionText: 14px/18px var(--fontBase);
+    --headLine1: bold 54px/68px var(--fontBase);
+    --headLine2: bold 34px/52px var(--fontBase);      
+    --headLine3: bold 24px/18px var(--fontBase);
+    --headLine4: bold 16px/12px var(--fontBase);
+    --headlineC: bold 16px/12px var(--fontBase);
+    --bgBody: #f5f2f5;
+    --bgCard: #f0eaf0be;
+    --header: #2B3A67;
+    --buttonsColor: #7EE081;
+    --buttonCallActive: #00ff55;
+    --headerActive: #E84855;
+    --errorColor: #ff0000;
+    --withe: #ffffff;
+    --buttonText: bold 14px/22px  var(--fontBase);
+    }
+    body{
+        font: var(--fontBase);
+        background: var(--bgBody);
+        min-block-size: 100vh;
+        margin: 0;
+    }
+
+    h1{
+        font: var(--headLine1);
+    }
+    h2{
+        font: var(--headLine2);
+    }
+    h3{
+        font: var(--headLine3);
+    }
+    h4{
+        font: var(--headLine4);
+    }
+    p{
+        font: var(--fontBase);
+        font: var(--bodyText);
+    }
+
+    .wrapper {
+        max-inline-size: 1158px;
+        padding-inline-end: 16px;
+        padding-inline-start: 16px;
+        margin: auto;
+      }
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
